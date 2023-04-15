@@ -1,0 +1,28 @@
+Soal Fundamental Performance Testing
+
+1. Jelaskan jenis-jenis dari performance testing.
+Jawaban:
+-Stress Testing, jenis pengujian ini bertujuan untuk mengetahui batas maksimal beban atau kapasitas sistem sebelum terjadi kegagalan atau crash. Stress testing 
+ dilakukan dengan memberikan beban yang melebihi kapasitas maksimal sistem.
+-Load Testing, jenis pengujian ini bertujuan untuk mengetahui seberapa banyak beban yang dapat ditangani oleh sistem. Load testing dilakukan dengan memberikan 
+ beban secara bertahap pada sistem hingga mencapai batas maksimal yang dapat ditangani.
+-Baseline Testing, jenis pengujian ini bertujuan untuk mengetahui kinerja sistem pada kondisi normal sebelum melakukan pengujian performa yang lebih kompleks. 
+ Baseline testing dilakukan dengan memberikan beban pada sistem dalam kondisi normal dan mengukur waktu respon sistem.
+-Endurance Testing, jenis pengujian ini bertujuan untuk mengetahui kemampuan sistem dalam menangani beban dalam jangka waktu yang lama. Endurance testing 
+ dilakukan dengan memberikan beban pada sistem selama beberapa waktu atau bahkan hingga beberapa hari.
+-Spike testing: Jenis pengujian yang dilakukan untuk mengukur kinerja sistem pada kondisi beban yang tiba-tiba meningkat. Tujuannya adalah untuk mengetahui 
+ apakah sistem dapat bertahan dalam kondisi yang tidak stabil dan dapat menangani lonjakan beban yang tiba-tiba.
+
+Soal Introduction & Tutorial Record with JMeter
+1. Lakukan pengujian performa dengan JMeter pada sebuah aplikasi pemesanan tiket pesawat [berikut](https://blazedemo.com/) dengan Fitur yang diuji adalah sebagai berikut: 
+    a. Mencari Jadwal Penerbangan.
+    b. Memilih Jadwal Penerbangan.
+    c. Membeli Tiket.
+Jawaban:
+Record menggunakan BlazeMeter dan hasil record yang ditest pada JMeter dapat dilihat di folder screenshoot
+
+Soal Post Processor & Understanding JMeter Result
+1. Lakukan pengujian performa dengan JMeter pada sebuah aplikasi pemesanan tiket pesawat [berikut](https://blazedemo.com/). Kriteria dari pengujian  adalah sebagai berikut:
+    a. Fitur yang diuji adalah fitur pembelian tiket penerbangan.
+    b. Terapkan penggunaan post processor.
+    c. Lampirkan screenshot hasil pengujian performa pada fitur pembelian tiket penerbangan. Jelaskan hasil pengujian yang dilakukan.
